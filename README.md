@@ -8,7 +8,7 @@ Run command in Google cloud console:
 ```bash
 export IMAGE_FAMILY="pytorch-latest-gpu-ubuntu-2004-py310"
 export ZONE="asia-northeast1-a"
-export INSTANCE_NAME="${USER}-dev2"
+export INSTANCE_NAME="${USER}-dev"
 export INSTANCE_TYPE="g2-standard-4"
 gcloud compute instances create $INSTANCE_NAME \
         --provisioning-model=SPOT \
